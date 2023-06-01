@@ -1,7 +1,7 @@
-import express, { Request, Response } from 'express'
 import cors from 'cors'
-const app = express()
+import express, { Request, Response } from 'express'
 import usersRouter from './app/modules/users/users.route'
+const app = express()
 
 // middlewares
 app.use(express.json())
