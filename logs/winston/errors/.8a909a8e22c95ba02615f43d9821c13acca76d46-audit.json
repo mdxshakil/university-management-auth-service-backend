@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\errors\\.8a909a8e22c95ba02615f43d9821c13acca76d46-audit.json",
+    "files": [
+        {
+            "date": 1685714997702,
+            "name": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\errors\\phu-2023-02-06-20-error.log",
+            "hash": "1af6154ffe38abfa63fd6001001df7a689f95363a0c21b086e4e0dc440d081ed"
+        },
+        {
+            "date": 1685718008016,
+            "name": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\errors\\phu-2023-02-06-21-error.log",
+            "hash": "33e72bb4971e74d746bedc855f2899efbe37aec8ce9f94c30abf7959e18f4333"
+        },
+        {
+            "date": 1685792512020,
+            "name": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\errors\\phu-2023-03-06-17-error.log",
+            "hash": "1f85edbd03ca13429e5269fbb0770652af5f09515d6c80cb60e18e9ab1bb7572"
+        }
+    ],
+    "hashType": "sha256"
+}
