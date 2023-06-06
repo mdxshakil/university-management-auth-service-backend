@@ -1,0 +1,3 @@
+Tue Jun 06 2023 16:34:12 [ph] error: Failed to connect querySrv ECONNREFUSED _mongodb._tcp.cluster0.wbrq2t5.mongodb.net
+Tue Jun 06 2023 16:50:0 [ph] error: Failed to connect querySrv ECONNREFUSED _mongodb._tcp.cluster0.wbrq2t5.mongodb.net
+Tue Jun 06 2023 16:52:57 [ph] error: Failed to connect querySrv ECONNREFUSED _mongodb._tcp.cluster0.wbrq2t5.mongodb.net
