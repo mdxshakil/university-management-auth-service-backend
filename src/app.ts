@@ -1,6 +1,7 @@
 import cors from 'cors';
 import express, { Request, Response } from 'express';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
+import { AcademicSemesterRoute } from './app/modules/academicSemester/academicSemester.route';
 import { UserRoutes } from './app/modules/user/user.route';
 const app = express();
 
@@ -11,6 +12,7 @@ app.use(cors());
 
 // Application routes
 app.use('/api/v1/users/', UserRoutes);
+app.use('/api/v1/academic-semesters/', AcademicSemesterRoute);
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Hello World!');
