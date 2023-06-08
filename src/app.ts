@@ -1,6 +1,7 @@
 import cors from 'cors';
 import express, { Request, Response } from 'express';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
+import invalidRouteHandler from './app/middlewares/invalidRouteHandler';
 import routes from './app/routes';
 const app = express();
 
@@ -21,5 +22,8 @@ app.get('/', (req: Request, res: Response) => {
 
 // global error handler
 app.use(globalErrorHandler);
+
+//Invalid route handler
+app.use(invalidRouteHandler);
 
 export default app;
