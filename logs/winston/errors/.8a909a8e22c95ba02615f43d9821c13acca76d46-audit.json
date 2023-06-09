@@ -119,6 +119,11 @@
             "date": 1686290424537,
             "name": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\errors\\phu-2023-09-06-12-error.log",
             "hash": "bf6b27a11e50d207f6f6a75cfdb24198a6282facd400e5ee66923caed1523203"
+        },
+        {
+            "date": 1686321028949,
+            "name": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\errors\\phu-2023-09-06-20-error.log",
+            "hash": "e6c288917d5551be01c82df0fcd4a91a8dedd4892831b48b2a2ab03da93662e9"
         }
     ],
     "hashType": "sha256"
