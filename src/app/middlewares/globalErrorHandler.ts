@@ -6,6 +6,7 @@ import handleValidationError from '../../errors/handleValidationError';
 import handleZodError from '../../errors/handleZodError';
 import { IGenericErrorMessage } from '../../interfaces/error';
 
+// eslint-disable-next-line no-unused-vars
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   let statusCode = 500;
   let message = 'Something went wrong';
@@ -51,7 +52,7 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
     // eslint-disable-next-line no-undefined
     stack: config.env !== 'production' ? error?.stack : undefined,
   });
-  next();
+  // next();
 };
 
 export default globalErrorHandler;
