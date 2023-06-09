@@ -1,6 +1,7 @@
 import cors from 'cors';
 import express, { Request, Response } from 'express';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
+import invalidRouteHandler from './app/middlewares/invalidRouteHandler';
 import routes from './app/routes';
 const app = express();
 
@@ -14,12 +15,12 @@ app.use('/api/v1', routes);
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Hello World!');
-  // throw new Error("Ore baba error")
-  // throw new ApiError(400, "Ore baba error")
-  // next("Ore baba error")
 });
 
 // global error handler
 app.use(globalErrorHandler);
+
+//Invalid route handler
+app.use(invalidRouteHandler);
 
 export default app;
