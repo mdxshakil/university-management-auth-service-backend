@@ -124,6 +124,16 @@
             "date": 1686321028931,
             "name": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-09-06-20-success.log",
             "hash": "b2cf040cb18169290ef22b3d10c63c2f420aa725c458dc35bd93d5f093c9c768"
+        },
+        {
+            "date": 1686324161399,
+            "name": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-09-06-21-success.log",
+            "hash": "eeb97cef90b4d66380517c5045a892ad5688ac2fe713204becb91c55ce111410"
+        },
+        {
+            "date": 1686326604044,
+            "name": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-09-06-22-success.log",
+            "hash": "fb2f8bcaaaccd7956f7464b9a9cb405ec13c0e5b639378fa5f534c691b5b72f6"
         }
     ],
     "hashType": "sha256"
