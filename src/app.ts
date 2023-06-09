@@ -15,9 +15,6 @@ app.use('/api/v1', routes);
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Hello World!');
-  // throw new Error("Ore baba error")
-  // throw new ApiError(400, "Ore baba error")
-  // next("Ore baba error")
 });
 
 // global error handler
