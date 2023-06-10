@@ -1,0 +1,7 @@
+Sat Jun 10 2023 21:0:27 [ph] error: Failed to connect connection timed out
+Sat Jun 10 2023 21:1:1 [ph] error: Failed to connect Server selection timed out after 30000 ms
+Sat Jun 10 2023 21:2:34 [ph] error: Failed to connect Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+Sat Jun 10 2023 21:4:36 [ph] error: Failed to connect connection timed out
+Sat Jun 10 2023 21:8:52 [ph] error: Failed to connect Server selection timed out after 30000 ms
+Sat Jun 10 2023 21:18:3 [ph] error: Failed to connect The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+Sat Jun 10 2023 21:19:0 [ph] error: Failed to connect The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
