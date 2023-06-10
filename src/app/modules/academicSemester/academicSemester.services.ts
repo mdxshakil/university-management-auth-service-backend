@@ -88,8 +88,11 @@ const getAllSemesters = async (
     //createdAt = desc
     sortConditions[sortBy] = sortOrder;
   }
+  //fix $and, $or musb be non empty array
+  const whereConditions =
+    andConditions.length > 0 ? { $and: andConditions } : {};
 
-  const result = await AcademicSemester.find({ $and: andConditions })
+  const result = await AcademicSemester.find(whereConditions)
     .sort(sortConditions)
     .skip(skip)
     .limit(limit);
