@@ -12,6 +12,13 @@ router.post(
 
 router.get('/:id', AcademicSemesterController.getSingleSemester);
 router.get('/', AcademicSemesterController.getAllSemesters);
-router.patch('/:id', AcademicSemesterController.updateSemester);
+
+//make sure title and code both are given, if try to update code or title
+//otherwise give only the required property
+router.patch(
+  '/:id',
+  validateRequest(AcademicSemesterValidation.updateAcademicSemesterZodSchema),
+  AcademicSemesterController.updateSemester
+);
 
 export const AcademicSemesterRoute = router;

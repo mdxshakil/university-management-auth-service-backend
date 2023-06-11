@@ -58,7 +58,6 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
     // eslint-disable-next-line no-undefined
     stack: config.env !== 'production' ? error?.stack : undefined,
   });
-  // next();
 };
 
 export default globalErrorHandler;
