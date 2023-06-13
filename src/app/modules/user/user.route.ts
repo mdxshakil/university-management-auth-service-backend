@@ -9,5 +9,7 @@ router.post(
   validateRequest(UserValidation.createUserZodSchema),
   UserController.createStudent
 );
+//create faculty same as create student
+//create admin same as create student
 
 export const UserRoutes = router;
