@@ -6,31 +6,25 @@ import { ManagementDepartmentValidation } from './managementDepartment.validatio
 const router = express.Router();
 
 router.post(
-  '/create-management',
+  '/create-department',
   validateRequest(
     ManagementDepartmentValidation.createManagementDepartmentZodSchema
   ),
-  ManagementDepartmentController.createManagementDepartment
+  ManagementDepartmentController.createDepartment
 );
 
-router.get('/', ManagementDepartmentController.getAllManagementDepartments);
-
-router.get(
-  '/:id',
-  ManagementDepartmentController.getSingleManagementDepartment
-);
-
-router.delete(
-  '/:id',
-  ManagementDepartmentController.deleteSingleManagementDepartment
-);
+router.get('/:id', ManagementDepartmentController.getSingleDepartment);
 
 router.patch(
   '/:id',
   validateRequest(
     ManagementDepartmentValidation.updateManagementDepartmentZodSchema
   ),
-  ManagementDepartmentController.updateManagementDepartment
+  ManagementDepartmentController.updateDepartment
 );
 
-export const managementDepartmentRoutes = router;
+router.delete('/:id', ManagementDepartmentController.deleteDepartment);
+
+router.get('/', ManagementDepartmentController.getAllDepartments);
+
+export const ManagementDepartmentRoutes = router;
