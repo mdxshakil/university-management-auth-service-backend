@@ -17,10 +17,10 @@ app.get('/', (req: Request, res: Response) => {
   res.send('Hello World!');
 });
 
-// global error handler
-app.use(globalErrorHandler);
-
 //Invalid route handler
 app.use(invalidRouteHandler);
+
+// global error handler
+app.use(globalErrorHandler);
 
 export default app;
