@@ -1,3 +1,4 @@
+// import bcrypt from 'bcrypt';
 import httpStatus from 'http-status';
 import mongoose from 'mongoose';
 import config from '../../../config/index';
@@ -25,6 +26,7 @@ const createStudent = async (
   if (!user.password) {
     user.password = config.default_student_pass as string;
   }
+
   //set role
   user.role = 'student';
   const academicSemester = await AcademicSemester.findById(
@@ -78,6 +80,7 @@ const createStudent = async (
 
   return newUserAllData;
 };
+
 const createFaculty = async (
   faculty: IFaculty,
   user: IUser
@@ -138,6 +141,7 @@ const createFaculty = async (
 
   return newUserAllData;
 };
+
 const createAdmin = async (
   admin: IAdmin,
   user: IUser
