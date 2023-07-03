@@ -6,21 +6,6 @@
     "auditLog": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\successes\\.e847467dbe5bac76c87a362b2c7ae6edfb063768-audit.json",
     "files": [
         {
-            "date": 1686209832381,
-            "name": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-08-06-13-success.log",
-            "hash": "56df89a26860037b83745e6634677f1a1e2e30a3f1540457eff2c6a3d09a29e5"
-        },
-        {
-            "date": 1686234905505,
-            "name": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-08-06-20-success.log",
-            "hash": "83bc264d4849f94c969d42fa126d481aacf6064a045f440e677142d8973fe491"
-        },
-        {
-            "date": 1686246110584,
-            "name": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-08-06-23-success.log",
-            "hash": "b061e93d5d0e70c3642d1208fba01851e4f53e594922e64f2f523df009382911"
-        },
-        {
             "date": 1686289025418,
             "name": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-09-06-11-success.log",
             "hash": "fb752720f0754543459e0d7d681f6834eaa264c01742df4ac5189d0f8941164a"
@@ -249,6 +234,16 @@
             "date": 1687359622086,
             "name": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-21-06-21-success.log",
             "hash": "8340b1b6f7beb24489fe9efd86da9828822053eae18e1e7762fcdda84d179596"
+        },
+        {
+            "date": 1687363297096,
+            "name": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-21-06-22-success.log",
+            "hash": "3feda19907e6d40fafdf515ad7b7c7237153075d0c3c71fa9da3d1732e489749"
+        },
+        {
+            "date": 1687456272113,
+            "name": "E:\\Do It Now\\THINK-IN-LEVEL2\\Milestone-3-BACKEND\\UNIVERSITY-MANAGEMENT\\university-management-auth-service-backend\\logs\\winston\\successes\\phu-2023-22-06-23-success.log",
+            "hash": "e3fa00b48cd6eef72638d45b7cf1df3bbe4d8dd2af638c05c188b1df0ac40c1e"
         }
     ],
     "hashType": "sha256"

@@ -35,6 +35,9 @@ const userSchema = new Schema<IUser, Record<string, never>, IUserMethods>(
       type: Boolean,
       default: true,
     },
+    paswordChangedAt: {
+      type: Date,
+    },
   },
   {
     timestamps: true,
